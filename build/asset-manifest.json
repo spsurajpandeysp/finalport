@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.48506c0e.css",
+    "main.js": "/static/js/main.124ba7b1.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/canteenManagementSystemPdf.pdf": "/static/media/canteenManagementSystemPdf.0ee9266d8ef09af780a6.pdf",
+    "static/media/objectDetectionPdf.pdf": "/static/media/objectDetectionPdf.2d38638bfee7caaf4bd6.pdf",
+    "static/media/superMarketingPdf.pdf": "/static/media/superMarketingPdf.3683cbc6d438d4bbea01.pdf",
+    "static/media/cmsImage.jpg": "/static/media/cmsImage.661be01090679da92a21.jpg",
+    "static/media/superMarketImage.png": "/static/media/superMarketImage.81734d661094b60edf68.png",
+    "static/media/ecommerceImage.png": "/static/media/ecommerceImage.df09171eb50a60769a67.png",
+    "static/media/surajpandeyresume.png": "/static/media/surajpandeyresume.fee9a1a91d6aed3655f6.png",
+    "static/media/resumePdf.pdf": "/static/media/resumePdf.f51c18aac4b70b184934.pdf",
+    "static/media/surajpandeyImage.png": "/static/media/surajpandeyImage.ee37deb0eb5ecfce7a00.png",
+    "static/media/surajpandey.jpg": "/static/media/surajpandey.b7044a5d139555417f9c.jpg",
+    "static/media/faceRImage.png": "/static/media/faceRImage.751a861f8fb32e3bad27.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.48506c0e.css.map": "/static/css/main.48506c0e.css.map",
+    "main.124ba7b1.js.map": "/static/js/main.124ba7b1.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48506c0e.css",
+    "static/js/main.124ba7b1.js"
+  ]
+}
