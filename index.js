@@ -10,10 +10,10 @@ const app = express();
 var cors = require('cors')
 
 app.use(cors())
-
+// const {connectDb} = require('./dbConnection');
 const PORT = 4000;
 app.use(express.json())
-mongoose.connect("mongodb+srv://surajpandey7493:nSDH2A7UKTY6Ww1q@cluster0.5u3z1jb.mongodb.net/portfolio?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect(process.env.DATABASE_URL)
 
 
 
