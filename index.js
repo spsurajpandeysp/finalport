@@ -53,6 +53,6 @@ app.get('/social-handle',async (req,res)=>{
 
 
 
-app.listen(4000),async ()=>{
-    console.log("server Listining On Port: "+PORT)
+app.listen(process.env.PORT),async ()=>{
+    console.log("server Listining On Port: "+process.env.PORT)
 };
