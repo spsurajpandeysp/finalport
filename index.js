@@ -22,7 +22,7 @@ app.use(express.static(process.env.PUBLIC_DIR));
 // console.log(process.env.PUBLIC_DIR);
 
 app.get('/',(req,res)=>{
-    res.send("suraj pandey");
+    res.send("suraj pandeydfs");
 })
 
 app.get('/about',async (req,res)=>{
