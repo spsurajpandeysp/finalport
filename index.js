@@ -8,7 +8,7 @@ const {getAllSocialHandle} = require('./controllers/socialMediaHandle.controller
 const mongoose = require("mongoose");
 const app = express();
 var cors = require('cors')
-
+const path = require('path');
 app.use(cors())
 // const {connectDb} = require('./dbConnection');
 app.use(express.json())
@@ -16,7 +16,7 @@ mongoose.connect(process.env.DATABASE_URL)
 
 
 
-app.use(express.static("build"));
+app.use(express.static(path.resolve(__dirname,process.env.PUBLIC_DIR)));
 
 
 // app.get('/',(req,res)=>{
