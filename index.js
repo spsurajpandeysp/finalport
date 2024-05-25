@@ -21,6 +21,9 @@ mongoose.connect(process.env.DATABASE_URL)
 
 // console.log(process.env.PUBLIC_DIR);
 
+app.get('/',(req,res)=>{
+    res.send("suraj pandey");
+})
 
 app.get('/about',async (req,res)=>{
     await getAboutData(req,res);
