@@ -19,7 +19,7 @@ mongoose.connect(process.env.DATABASE_URL)
 
 app.use(express.static(process.env.PUBLIC_DIR));
 
-// console.log(process.env.PUBLIC_DIR);
+console.log(process.env.PUBLIC_DIR);
 
 app.get('/',(req,res)=>{
     res.send("suraj pandeydfs");
