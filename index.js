@@ -24,7 +24,7 @@ console.log(process.env.PUBLIC_DIR);
 app.get('/',(req,res)=>{
     console.log(process.env.DATABASE_URL);
     console.log(process.env.PUBLIC_DIR);
-    res.send("suraj pandeydfs");
+    res.send("suraj pandeydfs fddfs");
 })
 
 app.get('/about',async (req,res)=>{
