@@ -2,10 +2,15 @@
     "version":2,
     "builds":[
         {"src":"./index.js","use":"@vercel/node"},
-        {"src":"build/","use":"@vercel/static"}
+        {"src":"build/**","use":"@vercel/static"}
     ],
     "routes":[
-        {"src":"/build","dest":"/build"},
-        {"src":"/(.*)","dest":"/index.js"}
+        {"src":"/about","dest":"index.js"},
+        {"src":"/projects","dest":"index.js"},
+        {"src":"/contact-us","dest":"index.js"},
+        {"src":"/social-handle","dest":"index.js"},
+        {"src":"/coding-handle","dest":"index.js"},
+        {"src":"/","dest":"build/index.html"},
+        {"src":"/(.+)","dest":"build/$1"}
     ]
 }
