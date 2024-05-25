@@ -11,7 +11,6 @@ var cors = require('cors')
 
 app.use(cors())
 // const {connectDb} = require('./dbConnection');
-const PORT = 4000;
 app.use(express.json())
 mongoose.connect(process.env.DATABASE_URL)
 
@@ -19,7 +18,6 @@ mongoose.connect(process.env.DATABASE_URL)
 
 app.use(express.static(process.env.PUBLIC_DIR));
 
-console.log(process.env.PUBLIC_DIR);
 
 // app.get('/',(req,res)=>{
 //     console.log(process.env.DATABASE_URL);
